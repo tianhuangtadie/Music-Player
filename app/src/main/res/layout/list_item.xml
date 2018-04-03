@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+
+        <TextView
+            android:id="@+id/tv_tt"
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/im_add"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:src="@drawable/add" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/im_add"
+            android:layout_height="76dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_music_name"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center|left"
+                android:textSize="20sp"
+                android:textColor="@drawable/item_text_selector"/>
+
+            <TextView
+                android:id="@+id/tv_music_singer"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:textSize="13sp"
+                android:textColor="@drawable/item_text_selector1"
+                android:gravity="top"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

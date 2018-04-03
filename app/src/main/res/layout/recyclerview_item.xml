@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+
+
+    <ImageView
+        android:id="@+id/im_gd"
+        android:layout_width="240dp"
+        android:layout_height="240dp"/>
+
+    <ImageView
+        android:id="@+id/im_bf"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bofang"
+        android:layout_alignRight="@id/im_gd"
+        android:layout_alignBottom="@id/im_gd"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_zt"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/im_gd"/>
+
+
+</RelativeLayout>
